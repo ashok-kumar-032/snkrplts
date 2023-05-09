@@ -8,10 +8,6 @@
 
 }
 
-.navlogo:hover {
-  transform: scale(1.1);
-}
-
 /* top */
 .w_10 {
   width: 50px;
@@ -72,6 +68,11 @@
 
   }
 
+  0% {
+    transform: scale(1);
+
+  }
+
   100% {
     transform: scale(1.5);
 
@@ -96,6 +97,10 @@
 
 .pointer {
   cursor: pointer;
+}
+
+.add_btn:hover {
+  background-color: #FF4400 !important;
 }
 
 .add_btn {
@@ -145,6 +150,23 @@
 }
 
 /* locker */
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #FF4400 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .foot_box {
   background: #FFFFFF;
   box-shadow: 23px 44px 47px rgba(174, 172, 172, 0.1);
@@ -186,17 +208,16 @@
 .off {
   top: -15px;
   left: -14px;
+
 }
 
 .new {
   right: 0;
-  top: -2px;
+  top: -1px;
+  border-radius: 0px 14px 0px 0px;
+  width: 55px;
 }
 
-.back_box_1:hover {
-  color: white !important;
-  background-color: #FF4400;
-}
 
 .back_box:hover {
   color: white !important;
@@ -205,17 +226,21 @@
 
 .next_box:hover {
   color: white !important;
-  background-color: #FF4400;
+  background-color: #FF4400 !important;
+  border: 1px solid #FF4400 !important;
 }
 
 .back_box_1 {
-  background: #FFFFFF;
+  border: none !important;
+  background: #FF4400;
   box-shadow: 3px 5px 22px rgba(0, 0, 0, 0.08);
   border-radius: 9.21875px;
   padding: 10px 23px;
+
 }
 
 .back_box {
+  border: none !important;
   background: #FFFFFF;
   box-shadow: 3px 5px 22px rgba(0, 0, 0, 0.08);
   border-radius: 9.21875px;
@@ -226,6 +251,7 @@
   border: 1px solid #9C9C9C;
   border-radius: 9px;
   padding: 8px 13px;
+  background-color: #FFFFFF !important;
 }
 
 /* footer */
@@ -234,7 +260,20 @@
 }
 
 .facbook:hover svg {
+  transition: 0.4s ease-in-out !important;
+}
+
+.facbook_1:hover {
   transform: translateY(-20%);
+}
+
+.facbook:hover svg {
+  transform: translateY(-20%);
+}
+
+.f_hover:hover {
+  color: #FF4400 !important;
+
 }
 
 /* desc */
@@ -262,12 +301,6 @@
   list-style: none;
   padding: 6px 12px;
   cursor: pointer;
-}
-
-
-.add:hover {
-  cursor: pointer !important;
-
 }
 
 ul {

@@ -96,7 +96,7 @@ const Sports = () => {
                     </div>
                   </div>
                   <button
-                    className=" add_btn ff_Poppins bg_green d-inline-block text-center ms-sm-3 mt-3 mt-sm-0 text-white fw_500 fs_20"
+                    className=" effect add_btn ff_Poppins bg_green d-inline-block text-center ms-sm-3 mt-3 mt-sm-0 text-white fw_500 fs_20"
                   >
                     Add to Cart
                   </button>
@@ -133,13 +133,13 @@ const Sports = () => {
                 <div className=" d-flex align-items-center pt-3 pb-4">
                   <p className=" mb-0 ff_poppins fw_300 fs_16 clr_compair">
                     <img className=" pointer" src={aero} />
-                    <span className="ff_poppins fw_400 fs_16 clr_black ms-2">
+                    <span className="ff_Poppins fw_400 fs_16 clr_black ms-2">
                       Compare
                     </span>
                   </p>
                   <p className=" mb-0 ff_poppins fw_300 fs_16 clr_compair ps-4">
                     <img className=" pointer" src={dil} />
-                    <span className="ff_poppins fw_400 fs_16 clr_black ms-2">
+                    <span className="ff_Poppins fw_400 fs_16 clr_black ms-2">
                       Wishlist
                     </span>
                   </p>
@@ -147,19 +147,19 @@ const Sports = () => {
                 <hr className=" shoes_line mb-4" />
                 <div>
                   <a href="#">
-                    <img src={img_1} alt="" />
+                    <img className="facbook_1 effect" src={img_1} alt="" />
                   </a>
                   <a href="#">
-                    <img className="ms-4" src={img_2} alt="" />
+                    <img className="ms-4 facbook_1 effect" src={img_2} alt="" />
                   </a>
                   <a href="#">
-                    <img className="ms-4" src={img_3} alt="" />
+                    <img className="ms-4 facbook_1 effect" src={img_3} alt="" />
                   </a>
                   <a href="#">
-                    <img className="ms-4" src={img_4} alt="" />
+                    <img className="ms-4 facbook_1 effect" src={img_4} alt="" />
                   </a>
                   <a href="#">
-                    <img className="ms-4" src={img_5} alt="" />
+                    <img className="ms-4 facbook_1 effect" src={img_5} alt="" />
                   </a>
                 </div>
               </div>

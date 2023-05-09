@@ -55,14 +55,14 @@ const Locker = () => {
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins'>Size:</p>
                                  <div className=' d-flex justify-content-between gap-3'>
-                                    <button className='w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">41</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">42</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">43</button>
+                                    <button className='w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>41</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>42</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>43</button>
                                 </div>
                                 <div className=' d-flex justify-content-between gap-3 mt-3'>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">44</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">45</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">46</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>44</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>45</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>46</button>
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins mt-4 mb-2'>View this product as:</p>
                                 <a className='fw_600 fs_16 clr_light_blue ff_Poppins' href="#">Foot Locker NL</a>
@@ -81,14 +81,14 @@ const Locker = () => {
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins'>Size:</p>
                                 <div className=' d-flex justify-content-between gap-3'>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">41</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">42</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">43</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>41</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>42</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>43</button>
                                 </div>
                                 <div className=' d-flex justify-content-between mt-3 gap-3'>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">44</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">45</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">46</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>44</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>45</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>46</button>
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins mt-4 mb-2'>View this product as:</p>
                                 <a className='fw_600 fs_16 clr_light_blue ff_Poppins' href="#">Foot Locker NL</a>
@@ -108,14 +108,14 @@ const Locker = () => {
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins'>Size:</p>
                                  <div className=' d-flex justify-content-between gap-3'>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">41</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">42</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">43</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>41</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>42</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>43</button>
                                 </div>
                                 <div className=' d-flex justify-content-between mt-3 gap-3'>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">44</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">45</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">46</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>44</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>45</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>46</button>
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins mt-4 mb-2'>View this product as:</p>
                                 <a className='fw_600 fs_16 clr_light_blue ff_Poppins' href="#">Foot Locker NL</a>
@@ -134,14 +134,14 @@ const Locker = () => {
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins'>Size:</p>
                                 <div className=' d-flex justify-content-between gap-3'>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">41</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">42</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">43</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>41</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>42</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>43</button>
                                 </div>
                                 <div className=' d-flex justify-content-between mt-3 gap-3'>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">44</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">45</button>
-                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect' href="#">46</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>44</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>45</button>
+                                    <button className=' w-100 fw_500 fs_16 clr_black ff_Poppins box_41 effect'>46</button>
                                 </div>
                                 <p className='fw_400 fs_16 clr_light_grey ff_Poppins mt-4 mb-2'>View this product as:</p>
                                 <a className='fw_600 fs_16 clr_light_blue ff_Poppins' href="#">Foot Locker NL</a>

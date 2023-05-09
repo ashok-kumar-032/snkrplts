@@ -30,7 +30,7 @@ function App() {
       <Footer />
       <BackToTop />
       {/* <Pagination/> */}
-      {/* <Loading/> */}
+    <Loading/>
     </div>
   );
 }

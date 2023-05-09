@@ -20,6 +20,7 @@
   --color-clr_light_grey_1: #999999;
   --color-clr_light_grey: #333333;
   --color-clr_grey_1: #555555;
+  --color-bg_grey_1: #555555;
   --color-clr_grey: #666666;
   --color-bg_orange: #FF4400;
   --color-bg_black: #0D0D0D;
@@ -61,6 +62,9 @@
 
 .clr_grey_1 {
   color: var(--color-clr_grey_1) !important;
+}
+.bg_grey_1 {
+  background-color: var(--color-clr_grey_1) !important;
 }
 
 .clr_grey {

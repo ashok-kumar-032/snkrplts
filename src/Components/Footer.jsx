@@ -10,7 +10,7 @@ const Footer = () => {
           <Row>
             <Col xl={4} xs={12} data-aos="fade-right"data-aos-duration="3000">
               <span>
-                <img src={footer_logo} alt="" />
+                <img className=" pointer" src={footer_logo} alt="" />
               </span>
               <p className="fw_400 fs_16 ff_Poppins clr_footer max_w_450">
                 Sed nec ultricies felis, vitae facilisis ipsum. Morbi id turpis
@@ -18,42 +18,20 @@ const Footer = () => {
                 nulla in leo ullamcorper, in finibus elit porta.{" "}
               </p>
               <div className="mt-4 pt-2">
-                <span className="facbook">
+                <span className="facbook effect">
                   <a href="#">
-                    <svg
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M0.897461 15.4679C0.897461 22.6714 
-                                     6.12925 28.6614 12.9717 29.8761V19.4113H9.34946V15.387H12.9717V12.1668C12.9717 
-                                      8.54447 15.3057 6.53289 18.6068 6.53289C19.6524 6.53289 20.7802 6.69348 21.8258 
-                                       6.85407V10.5573H19.9748C18.2035 10.5573 17.8015 11.4423 17.8015 
-                                        12.57V15.387H21.6652L21.0217 19.4113H17.8015V29.8761C24.6439 28.6614 29.8757 
-                                         22.6726 29.8757 15.4679C29.8757 7.45416 23.3556 0.897827 15.3866 0.897827C7.41757 
-                                          0.897827 0.897461 7.45416 0.897461 15.4679Z"
-                        fill="white"
-                      />
-                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.897461 15.4679C0.897461 22.6714 6.12925 28.6614 12.9717 29.8761V19.4113H9.34946V15.387H12.9717V12.1668C12.9717 8.54447 15.3057 6.53289 18.6068 6.53289C19.6524 6.53289 20.7802 6.69348 21.8258 6.85407V10.5573H19.9748C18.2035 10.5573 17.8015 11.4423 17.8015 12.57V15.387H21.6652L21.0217 19.4113H17.8015V29.8761C24.6439 28.6614 29.8757 22.6726 29.8757 15.4679C29.8757 7.45416 23.3556 0.897827 15.3866 0.897827C7.41757 0.897827 0.897461 7.45416 0.897461 15.4679Z" fill="white"/>
+</svg>
+
                   </a>
                 </span>
 
                 <span className="px-4 facbook effect">
                   <a href="#">
-                    <svg
-                      width="36"
-                      height="35"
-                      viewBox="0 0 36 35"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+                    <svg width="36" height="35" viewBox="0 0 36 35"fill="none"xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        d="M18.1609 2.17334C9.75942 2.17334 2.94727 8.9855 2.94727 17.3869C2.94727 25.7884 
+                      <path d="M18.1609 2.17334C9.75942 2.17334 2.94727 8.9855 2.94727 17.3869C2.94727 25.7884 
                                  9.75942 32.6005 18.1609 32.6005C26.5623 32.6005 33.3745 25.7884 33.3745 17.3869C33.3745 
                                   8.9855 26.5623 2.17334 18.1609 2.17334ZM25.4722 13.6413C25.4824 13.8009 25.4824 13.9673 
                                    25.4824 14.1303C25.4824 19.1154 21.6858 24.8579 14.748 24.8579C12.6086 24.8579 10.6254 
@@ -70,13 +48,11 @@ const Footer = () => {
                                  24.4534 11.1045C25.3058 10.9449 26.1208 10.6257 26.8475 10.1978C26.5657 11.0706 25.9748 
                                   11.8075 25.1904 12.2727C25.951 
                                  12.1912 26.6845 11.9807 27.3637 11.6852C26.8509 12.4391 26.2091 13.1081 25.4722 
-                                  13.6413V13.6413Z"
-                        fill="white"
-                      />
+                                  13.6413V13.6413Z" fill="white"/>
                     </svg>
                   </a>
                 </span>
-                <span className="facbook">
+                <span className="facbook effect">
                   <a href="#">
                     <svg
                       width="36"
@@ -85,8 +61,7 @@ const Footer = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        d="M17.9353 2.17334C9.53384 2.17334 2.72168 8.9855 2.72168 17.3869C2.72168 25.7884 
+                      <path d="M17.9353 2.17334C9.53384 2.17334 2.72168 8.9855 2.72168 17.3869C2.72168 25.7884 
                                  9.53384 32.6005 17.9353 32.6005C26.3367 32.6005 33.1489 25.7884 33.1489 17.3869C33.1489 
                                   8.9855 26.3367 2.17334 17.9353 2.17334ZM19.1748 21.1496C17.684 23.2482 14.6888 23.8595 
                                    12.3524 22.9596C10.0093 22.0665 8.34528 19.5909 8.54563 17.0677C8.59657 13.9809 11.4389 
@@ -101,9 +76,7 @@ const Footer = () => {
                                             22.8288 18.2257 22.2582 18.2189V16.5176C22.8288 16.5108 23.3993 16.5074 
                                              23.9698 16.5074C23.9732 15.9369 23.98 15.3664 
                                             23.9834 14.7959H25.6881L25.6983 16.5074C26.2688 16.5142 26.8393 16.5142 
-                                             27.4098 16.5176V18.2189Z"
-                        fill="white"
-                      />
+                                             27.4098 16.5176V18.2189Z" fill="white" />
                     </svg>
                   </a>
                 </span>
@@ -111,21 +84,16 @@ const Footer = () => {
             </Col>
             <Col xl={8} xs={12}>
               <Row className="mt-5 pt-xl-5">
-                <Col
-                  lg={3}
-                  md={4}
-                  sm={6}
-                  className=" d-flex justify-content-xl-end"data-aos="fade-up"data-aos-duration="3000"
-                >
+                <Col lg={3} md={4} sm={6} className=" d-flex justify-content-xl-end"data-aos="fade-up"data-aos-duration="3000">
                   <ul className="ps-0">
                     <li>
-                      <p className="fw_600 fs_18 ff_Poppins clr_white">
+                      <p className="fw_600 fs_18 ff_Poppins  clr_white">
                         CUSTOM LINKS
                       </p>
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -133,7 +101,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -141,12 +109,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  lg={3}
-                  md={4}
-                  sm={6}
-                  className=" d-flex justify-content-xl-end"data-aos="fade-down"data-aos-duration="3000"
-                >
+                <Col lg={3} md={4} sm={6} className=" d-flex justify-content-xl-end"data-aos="fade-down"data-aos-duration="3000" >
                   <ul className="ps-0">
                     <li>
                       <p className="fw_600 fs_18 ff_Poppins clr_white">
@@ -155,7 +118,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -163,7 +126,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -171,7 +134,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -179,12 +142,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  lg={3}
-                  md={4}
-                  sm={6}
-                  className=" d-flex justify-content-xl-end"data-aos="fade-up"data-aos-duration="3000"
-                >
+                <Col lg={3} md={4} sm={6} className=" d-flex justify-content-xl-end"data-aos="fade-up"data-aos-duration="3000">
                   <ul className="ps-0">
                     <li>
                       <p className="fw_600 fs_18 ff_Poppins clr_white text-nowrap">
@@ -193,7 +151,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -201,7 +159,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -209,12 +167,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  lg={3}
-                  md={4}
-                  sm={6}
-                  className=" d-flex justify-content-xl-end"data-aos="fade-down"data-aos-duration="3000"
-                >
+                <Col lg={3} md={4} sm={6} className=" d-flex justify-content-xl-end"data-aos="fade-down"data-aos-duration="3000">
                   <ul className="ps-0">
                     <li>
                       <p className="fw_600 fs_18 ff_Poppins clr_white text-nowrap">
@@ -223,7 +176,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum
@@ -231,7 +184,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
-                        className="fw_400 fs_18 ff_Poppins clr_footer"
+                        className="fw_400 fs_18 ff_Poppins f_hover effect clr_footer"
                         href="#"
                       >
                         Lorem ipsum

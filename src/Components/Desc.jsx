@@ -7,13 +7,13 @@ export default () => (
     <Container>
       <Tabs>
         <TabList className="d-flex flex-column flex-lg-row">
-          <Tab className="fw_400 fs_20 clr_black ff_Poppins ps-0 add ">
+          <Tab className="pointer fw_400 fs_20 clr_black ff_Poppins ps-0">
             DESCRIPTION
           </Tab>
-          <Tab className="fw_400 mb-2 fs_20 clr_black mx-lg-5 my-3 mt-lg-0 ff_Poppins addtext-nowrap">
+          <Tab className=" pointer fw_400 mb-2 fs_20 clr_black mx-lg-5 my-3 mt-lg-0 ff_Poppins addtext-nowrap">
             ADDITIONAL INFORMATION
           </Tab>
-          <Tab className="fw_400 fs_20 clr_black ff_Poppins add ">
+          <Tab className="pointer fw_400 fs_20 clr_black ff_Poppins">
             REVIEWS (1)
           </Tab>
         </TabList>
